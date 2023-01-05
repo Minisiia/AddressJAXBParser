@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<country>
+    <region>
+        <city size="big">Kharkiv</city>
+        <street>Valentynivska</street>
+        <house>123</house>
+    </region>
+    <region>
+        <city size="big">Mukachevo</city>
+        <street>Dukhnovycha</street>
+        <house>11</house>
+    </region>
+</country>
