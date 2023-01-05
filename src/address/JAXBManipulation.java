@@ -6,7 +6,7 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
 
-public class XMLSaveJAXB {
+public class JAXBManipulation {
 
     public static Country fromXmlToObject(String filePath) {
         try {

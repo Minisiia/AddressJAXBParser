@@ -12,9 +12,9 @@ public class Main {
         Country countryToXml = new Country();
         countryToXml.add(new Region(new City("big", "Kharkiv"), "Valentynivska", 123));
         countryToXml.add(new Region(new City("big", "Mukachevo"), "Dukhnovycha", 11));
-        XMLSaveJAXB.convertObjectToXml(countryToXml, fileName);
+        JAXBManipulation.convertObjectToXml(countryToXml, fileName);
 
-        Country countryFromXml = XMLSaveJAXB.fromXmlToObject(fileName);
+        Country countryFromXml = JAXBManipulation.fromXmlToObject(fileName);
         System.out.println("country to xml: " + countryToXml);
         System.out.println("country from xml: " + countryFromXml);
 
